@@ -84,7 +84,7 @@ export default defineComponent({
         },
         {
           name: 'totalOrderValue',
-          label: this.$t('debt.debt_total_order_value'),
+          label: this.$t('debt.debt_end_of_term_col'),
           align: 'right',
           field: 'totalOrderValue',
           sortable: true,
