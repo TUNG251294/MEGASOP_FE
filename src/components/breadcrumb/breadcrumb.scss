@@ -1,0 +1,7 @@
+.breadcrumbs {
+  div:not(.q-breadcrumbs--last) {
+    .q-icon {
+        margin-right: 0;
+    }
+  }
+}

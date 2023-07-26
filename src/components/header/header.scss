@@ -1,0 +1,39 @@
+.select-lang {
+  &-flag {
+    font-size: 1.5em;
+  }
+  &-label {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+}
+
+.flag {
+  width: 25px;
+
+  &-btn {
+    background: white;
+    border: none;
+    outline: none;
+
+    &:active {
+        border: none;
+        outline: none;   
+    }
+  }
+}
+
+.header {
+  padding: 1rem 1.5rem 0;
+  background-color: transparent;
+
+}
+.header > div{
+  border-radius: 8px;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(1, 138, 190, 0.08);
+  border-radius: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

@@ -1,0 +1,25 @@
+.input-allocated {
+    span {
+        font-size: 13px !important;
+        font-weight: 300 !important;
+    }
+
+    .q-field__control {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .q-field__native {
+        position: relative;
+        top: 3px;
+        left: 2px;
+    }
+}
+
+.q-table tbody td{
+    text-align: left !important;
+}
+
+.q-table .text-right{
+    text-align: right !important;
+}

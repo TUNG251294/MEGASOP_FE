@@ -1,0 +1,57 @@
+{
+  "name": "customer-portal",
+  "version": "0.0.1",
+  "description": "Megasop - Admin Portal",
+  "productName": "Megasop",
+  "author": "Vo Khac Duy <khacduy221997@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "apexcharts": "^3.35.4",
+    "axios": "^0.21.1",
+    "bootstrap": "4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "chart.js": "^3.5.1",
+    "core-js": "^3.6.5",
+    "cropperjs": "^1.5.12",
+    "eslint-loader": "^4.0.2",
+    "firebase": "^8.2.1",
+    "quasar": "^2.0.0",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.2.0",
+    "vue-router": "^4.1.4",
+    "vue3-apexcharts": "^1.4.1",
+    "vuex": "^4.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.0.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "strip-ansi": "^3.0.1",
+    "workbox-webpack-plugin": "^6.3.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

@@ -1,0 +1,48 @@
+@import '../../base/pages/page-auth.scss';
+.brand-logo {
+  svg {
+    height: 28px;
+    width: 40.95px;
+  }
+}
+
+@media screen and(min-width:1201px) {
+  .brand-logo img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and(max-width: 1200px) {
+  .brand-logo img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and(max-width: 991px) {
+  .brand-logo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .wrap-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .auth-wrapper.auth-v2 .brand-logo {
+    position: static;
+    margin: 1em 0 1em 0;
+  }
+
+  .auth-wrapper {
+    background-color: white;
+  }
+}
+html[dir='rtl'] {
+  svg.feather {
+    transform: rotate(180deg);
+  }
+}

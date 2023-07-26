@@ -1,0 +1,34 @@
+/*
+ * Typography: Local Font faces
+ * Defined Local Font faces
+ */
+
+/* Font weights
+100: Thin, Hairline, Ultra-light, Extra-light
+300: Light, Book
+400: Regular, Normal, Plain, Roman, Standard
+500: Medium
+600: Semi-bold
+700: Bold
+*/
+
+@include font-face('Helvetica Neue', 'fonts/helvetica-neue-ultra-light', 100);
+@include font-face(
+  'Helvetica Neue ULItalic',
+  'fonts/helvetica-neue-ultra-light-italic',
+  100
+);
+@include font-face('Helvetica Neue', 'fonts/helvetica-neue-light', 300);
+@include font-face(
+  'Helvetica Neue LItalic',
+  'fonts/helvetica-neue-light-italic',
+  300
+);
+@include font-face('Helvetica Neue', 'fonts/helvetica-neue-regular', 400);
+@include font-face('Helvetica Neue', 'fonts/helvetica-neue-medium', 500);
+@include font-face('Helvetica Neue', 'fonts/helvetica-neue-bold', 700);
+@include font-face(
+  'Helvetica Neue BItalic',
+  'fonts/helvetica-neue-bold-italic',
+  700
+);
